@@ -1,6 +1,6 @@
 # BillFlowAI
 
-A full-stack application that turns PDF invoices into structured, reviewable data. It uses Google Gemini for invoice extraction, Pydantic for deterministic validation, FastAPI for the API, PostgreSQL for persistence, and React with Vite for the user interface.
+A full-stack AI engineering application that turns PDF invoices into structured, reviewable data. It combines Google Gemini for AI-powered invoice extraction with Pydantic for deterministic validation and structured data integrity, FastAPI for the backend API, PostgreSQL for persistence, and React with Vite for the user interface. The project demonstrates an AI engineering workflow that combines LLM-based extraction with deterministic validation, persistence, and a human-reviewable interface.
 
 The application is designed to support human review: fields that are missing, low-confidence, or involved in a validation mismatch are flagged so they can be corrected before the invoice is treated as approved.
 
